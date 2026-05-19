@@ -1,0 +1,19 @@
+TRABAJO N° 8- Ramas de GIT (Teoría)
+
+1) ¿Qué es una rama en GIT?¿Para qué sirve?
+2) ¿Cuál es el comando que utilizamos para visualizar todas las ramas del repositorio local?
+3) ¿Cuál es el comando que utilizamos para crear otra rama?
+4) ¿Cuál es el comando que utilizamos para posicionarnos en otra rama?
+5) ¿Para qué utilizamos git merge? 
+
+Respuestas:
+
+Una rama en Git es una versión paralela e independiente del código. Funciona como una división que te permite crear nuevas funciones y otras partes del código. Sirve para poder trabajar en algo específico sin la posibilidad de alterar o romper cosas anteriores, además facilita la posibilidad de que varios colabores trabajen en simultáneo en funciones distintas. 
+
+ El comando para visualizar todas las ramas del repositorio local               es “git branch”
+
+ Se utiliza el comando “git branch…” y el nombre de la rama que quieras agregar
+
+ Se utiliza el comando “git checkout…” y el nombre de la rama a la que quieras ir
+
+5) El comando git merge se usa para unir los historiales y los cambios de dos ramas distintas. Toma el trabajo independiente realizado en una rama y lo incorpora a la rama actual en la que te encuentras posicionado.
