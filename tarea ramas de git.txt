@@ -1,0 +1,14 @@
+1) ¿Qué es una rama en Git? ¿Para qué sirve?
+Una rama en Git es una línea independiente de desarrollo dentro de un repositorio. Se utiliza para poder trabajar en nuevas funciones, cambios o correcciones sin afectar directamente la versión principal del proyecto. Esto permite desarrollar y probar modificaciones de manera separada antes de incorporarlas al proyecto principal.
+
+2) ¿Cuál es el comando que utilizamos para visualizar todas las ramas del repositorio local?
+El comando que se utiliza para visualizar todas las ramas del repositorio local es git branch. Al ejecutarlo, Git muestra la lista de ramas existentes en el repositorio y marca con un símbolo la rama en la que se está trabajando actualmente.
+
+3) ¿Cuál es el comando que utilizamos para crear otra rama?
+Para crear una nueva rama en Git se utiliza el comando git branch nombre-rama. Este comando genera una rama nueva dentro del repositorio, permitiendo comenzar un desarrollo separado sin modificar otras ramas existentes.
+
+4) ¿Cuál es el comando que utilizamos para posicionarnos en otra rama?
+Para posicionarse o cambiar a otra rama se utiliza el comando git checkout nombre-rama. Este comando permite pasar de una rama a otra y trabajar sobre la rama seleccionada. En versiones más recientes de Git también puede utilizarse git switch.
+
+5) ¿Para qué utilizamos git merge?
+El comando git merge se utiliza para unir los cambios realizados en una rama con otra rama del repositorio. Generalmente se usa para integrar al proyecto principal los cambios desarrollados en una rama secundaria, combinando así el trabajo realizado en distintas líneas de desarrollo.
