@@ -1,0 +1,5 @@
+﻿Una rama en Git es una línea de desarrollo independiente dentro de un repositorio. Sirve para trabajar en nuevas funcionalidades, correcciones o pruebas sin afectar la rama principal del proyecto. Luego, los cambios se pueden unir a otras ramas cuando estén listos.
+El comando para ver todas las ramas del repositorio local es git branch.
+El comando para crear una nueva rama es git branch nombre-rama.
+El comando para cambiar a otra rama es git checkout nombre-rama o también git switch nombre-rama.
+git merge se utiliza para unir los cambios de una rama con otra, integrando el trabajo realizado en distintas ramas dentro de una sola.
