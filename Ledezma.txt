@@ -1,0 +1,19 @@
+﻿1) ¿Que es una rama en GIT?¿Para que sirve?
+2) ¿Cuál es el comando que utilizamos para visualizar todas las ramas del repositorio local?
+3) ¿Cuál es el comando que utilizamos para crear otra rama?
+4) ¿Cuál es el comando que utilizamos para posicionarnos en otra rama?
+5) ¿Para que utilizamos git merge? 
+
+
+1)R=Las ramas son una de las principales utilidades que disponemos en Git para llevar un mejor control del código. Se trata de una bifurcación del estado del código que crea un nuevo camino de cara a la evolución del código, en paralelo a otras ramas que se puedan generar. En este artículo, repasamos para qué sirven las ramas de Git y cómo podemos trabajar con ellas en un proyecto.
+Las ramas nos pueden servir para muchos casos de uso. Por ejemplo, tras la elección del hosting para crear una página web o desarrollar una tienda online, para la creación de una funcionalidad que queramos integrar en un programa y para la cual no queremos que la rama principal se vea afectada. Esta función experimental se puede realizar en una rama independiente, de modo que, aunque tardemos varios días o semanas en terminarla, no afecte a la producción del código que tenemos en la rama principal y que permanecerá estable.                                                                                                                                               El trabajo con ramas resulta muy cómodo en el desarrollo de proyectos, porque es posible que todas las ramas creadas evolucionen al mismo tiempo, pudiendo el desarrollador pasar de una rama a otra en cualquier momento según las necesidades del proyecto. Si en un momento dado el trabajo con una rama nos ha resultado interesante, útil y se encuentra estable, entonces podemos fusionar ramas para incorporar las modificaciones del proyecto en su rama principal.
+2)R= usamos el git branch para visualizar todas las ramas del repositorio local
+3)R= usamos el 
+git branch
+ * master
+para crear otra rama
+4)R= usamos git checkout testfuncionalidad  para posicionarnos en otra rama
+
+
+5)R= La fusión es la forma que tiene Git de volver a unir un historial bifurcado. El comando git merge permite tomar las líneas independientes de desarrollo creadas por git branch e integrarlas en una sola rama.
+Ten en cuenta que todos los comandos presentados a continuación se fusionan en la rama actual. La rama actual se actualizará para reflejar la fusión, pero la rama de destino no se verá afectada en absoluto. Una vez más, esto significa que git merge se suele utilizar junto con git checkout para seleccionar la rama actual y git branch -d para eliminar la rama de destino obsoleta.
