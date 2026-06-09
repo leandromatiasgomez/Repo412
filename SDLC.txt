@@ -1,0 +1,48 @@
+﻿1. ¿Que es un ciclo de vida de desarrollo de software y cual es su propósito?
+2. ¿Cuales son las principales etapas de un ciclo de vida de desarrollo de software?
+3. ¿Porque es importante el SDLC? 
+
+
+
+
+1)El ciclo de vida del desarrollo de software (SDLC) es una metodología estructurada e iterativa utilizada por los equipos de desarrollo para construir, entregar y mantener sistemas de software de alta calidad y rentables. 
+
+
+
+
+2)
+1. Planificación
+	Identificar el alcance, objetivos y requisitos del proyecto
+	Plan inicial del proyecto
+	2. Análisis
+	Recopilar y revisar datos sobre los requisitos del proyecto
+	Documentación de requisitos completamente detallada
+	3. Diseño
+	Definir arquitectura del proyecto
+	Documento de diseño de software (SDD)
+	4. Codificación
+	Escribir código inicial
+	Prototipo funcional de software
+	5. Pruebas
+	Revisa el código y elimina errores
+	Software refinado y optimizado
+	6. Despliegue
+	Despliegue código en entorno de producción
+	Software disponible para los usuarios finales
+	7. Mantenimiento
+	Correcciones y mejoras continuas
+	Código actualizado y optimizado
+	
+
+
+
+
+
+3)El SDLC proporciona a los equipos de desarrollo una estructura estandarizada y un proceso repetible, facilitando la creación consistentemente de software de alta calidad. Los beneficios del SDLC incluyen:
+* Mejor software
+* Mejora de la productividad
+* Riesgo minimizado
+* Mayor transparencia del proyecto
+* Mayor colaboración
+* Gestión de recursos más eficiente
+* Mejora de la satisfacción del cliente
